@@ -193,12 +193,12 @@ export default function Home() {
             
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
               {[
-                "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=2069&auto=format&fit=crop",
-                "https://images.unsplash.com/photo-1559339352-11d035aa65de?q=80&w=1974&auto=format&fit=crop",
-                "https://images.unsplash.com/photo-1514361892635-6b07e31e75f3?q=80&w=2070&auto=format&fit=crop",
-                "https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=2070&auto=format&fit=crop",
-                "https://images.unsplash.com/photo-1581541460596-f94d97e2dbf7?q=80&w=2070&auto=format&fit=crop",
-                "https://images.unsplash.com/photo-1600891964092-4316c288032e?q=80&w=2070&auto=format&fit=crop",
+                "/image-1.jpg",
+                "/image-2.jpg",
+                "/image-3.jpg",
+                "/image-4.jpg",
+                "/image-5.jpg",
+                "/image-6.jpg",
               ].map((src, i) => (
                 <div key={i} className="relative h-[300px] overflow-hidden group rounded-md">
                   <Image
