@@ -76,7 +76,7 @@ export default function Home() {
             className="container relative z-10 mx-auto px-4 text-center mt-20"
           >
             <motion.div variants={fadeInUp} className="inline-block mb-4 px-4 py-1 border border-primary/30 rounded-full bg-primary/5 backdrop-blur-sm">
-              <span className="text-primary text-xs uppercase tracking-[0.4em] font-medium">Est. 1998</span>
+              <span className="text-primary text-xs uppercase tracking-[0.4em] font-medium">Est. 2026</span>
             </motion.div>
             <motion.h1 
               variants={fadeInUp}
@@ -157,7 +157,7 @@ export default function Home() {
               >
                 <motion.div variants={fadeInUp} className="space-y-4">
                   <span className="text-primary uppercase tracking-[0.5em] text-sm font-semibold inline-block">The Legacy</span>
-                  <h2 className="font-heading text-5xl md:text-7xl font-bold leading-tight">Crafting Memories <br/><span className="text-primary text-glow italic">Since 1998</span></h2>
+                  <h2 className="font-heading text-5xl md:text-7xl font-bold leading-tight">Crafting Memories <br/><span className="text-primary text-glow italic">Since 2026</span></h2>
                   <div className="h-1.5 w-32 bg-gold-gradient rounded-full"></div>
                 </motion.div>
                 
